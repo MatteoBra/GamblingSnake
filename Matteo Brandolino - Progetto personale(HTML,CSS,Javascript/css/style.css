@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+html {
+    background: #e3f2fd
+    
+}
+body{
+    font-family: 'Special Elite', cursive;
+}
+.wrapper{
+    margin-top: 20px;
+    background: #e3f2fd
+}
+.game-screen{
+    display: flex;
+    justify-content: center;
+    align-content: center
+    
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px
+    
+}
+
+.container-bonus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center
+}
+.container-bonus-img{
+    display: flex;
+    justify-content: space-evenly
+}
+
+canvas {
+    max-width: 100%;
+    max-height: 100%;
+    }
+
+
+
+
+
+
+@media (min-width: 576px) { }
+
+
+@media (min-width: 768px) {  }
+
+@media (min-width: 992px) { 
+    .container-bonus{
+        margin-top: 20%
+    }
+    .container-bonus-img{
+        
+    }
+}
+
+@media (min-width: 1200px) { }    
